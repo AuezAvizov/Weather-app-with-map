@@ -1,31 +1,34 @@
----
+# 🌤 React Yandex Weather App
 
-# React Weather App with Yandex Maps
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![API](https://img.shields.io/badge/API-Yandex_Weather_%7C_Maps-ff0000?style=flat-square)
 
-This React application provides users with up-to-date weather information by integrating **Yandex Maps** and the **Yandex Weather API**. It offers an intuitive experience for searching locations directly on the map and viewing detailed weather data for those areas in real time.
+Интерактивное веб-приложение для мониторинга погодных условий, построенное на базе React. 
 
-## Features
-
-- **Interactive Yandex Maps**: Users can interact with Yandex Maps to choose any location of interest by clicking or searching for specific areas. The map seamlessly integrates with the weather feature.
-- **Real-Time Weather Updates**: Upon selecting a location, the app fetches real-time weather data from the Yandex Weather API, providing detailed information such as temperature, wind speed, humidity, and general weather conditions.
-- **Simple & Clean UI**: The user interface is designed to be minimalistic, making it easy for users to find the information they need without distractions. The map and weather data are presented clearly for a smooth user experience.
-- **Responsive Design**: The application is designed to work well across different devices, ensuring accessibility on both desktop and mobile screens.
-
-## Purpose
-
-This project demonstrates how to build a practical, user-friendly weather app by leveraging third-party APIs. By integrating **Yandex Maps** and **Yandex Weather**, the app shows the possibilities of combining mapping technology with real-time data to create useful applications. It serves as a showcase of basic React development skills, focusing on API integration, state management, and UI design.
-
-## Getting Started
-
-1. Clone this repository to your local machine.
-2. Run `npm install` to set up the necessary dependencies.
-3. Use `npm start` to run the app in development mode.
-4. Interact with the map to explore weather data for various locations.
-
-## Potential Future Enhancements
-
-- **Favorite Locations**: Users could save frequently searched locations for quick access.
-- **Hourly Forecasts**: The app could be extended to display more detailed weather forecasts, including hourly predictions.
-- **Improved Map Features**: Additional map functionalities, such as zoom and pan controls, could improve the user experience.
+Проект объединяет возможности картографического сервиса **Yandex Maps** и **Yandex Weather API**, предоставляя пользователям интуитивно понятный интерфейс для поиска локаций на карте и получения детализированных метеоданных в реальном времени.
 
 ---
+
+## ✨ Ключевой функционал
+
+* 🗺️ **Интерактивная карта:** Выбор любой точки мира кликом по карте или через встроенный поиск локаций (на базе Yandex Maps).
+* 🌡️ **Погода в реальном времени:** Мгновенный запрос и отображение актуальных данных (температура, скорость ветра, влажность и общее состояние погоды) через Yandex Weather API.
+* 📱 **Адаптивный UI:** Минималистичный и отзывчивый дизайн, корректно работающий как на десктопных, так и на мобильных устройствах.
+* ⚡ **Single Page Application:** Быстрая работа интерфейса без перезагрузки страниц благодаря архитектуре React.
+
+---
+
+## 🛠 Технологический стек
+
+* **Frontend:** React.js, JavaScript (ES6+), HTML5, CSS3
+* **Интеграции (API):** Yandex Maps API, Yandex Weather API
+* **Менеджер пакетов:** npm
+
+---
+
+## 🚀 Установка и запуск (Local Setup)
+
+1. Склонируйте репозиторий:
+   ```bash
+   git clone [https://github.com/AuezAvizov/react-yandex-weather.git](https://github.com/AuezAvizov/react-yandex-weather.git)
